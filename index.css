@@ -1,5 +1,6 @@
-body {
+#game-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -22,7 +23,7 @@ body {
 .box {
   height: 50px;
   width: 50px;
-  border: 2px solid red;
+  border: 1.5px solid black;
   border-radius: 2px;
 }
 
@@ -38,4 +39,22 @@ body {
 
 [selected="true"] {
   background-color: palevioletred;
+}
+
+button {
+  margin: 10px;
+}
+
+.game-name {
+  font-size: 28px;
+}
+
+.color-green {
+  background-color: green;
+}
+.color-red {
+  background-color: red !important;
+}
+.bomb {
+  background-color: yellow;
 }
