@@ -96,6 +96,7 @@ let handleClick = function (el, i, j) {
       let result = document.getElementById("game-result");
       result.classList.remove("hide");
       result.innerHTML = "Congratulations you won the game";
+      gameOver = true;
     }
   }
 };
